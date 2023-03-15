@@ -4,8 +4,8 @@ if __name__ == "__main__":
     """Print all names defined by hidden_4 module."""
     import hidden_4
 
-    all_dir = dir(hidden_4)
-    for name in all_dir:
+    reams = dir(hidden_4)
+    for name in reams:
         if name[:2] != "__":
             print(name)
 
